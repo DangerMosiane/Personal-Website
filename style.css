@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-image: url(Images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+header{
+    background-image: url(Images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 3px 10px #0adff2;
+    border-radius: 10px;
+}
+
+#aboutMe{
+    width: 40%;
+    float: left;
+}
+
+aside{
+    width: 40%;
+    float: right;
+}
+
+#education{
+    float: right;
+}
+
+footer{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    background-image: url(Images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family:  Poetsen One, Arial, Helvetica, sans-serif;
+    color: #faf5f5;
+}
+
+h3{
+    font-family: Bebas Neue, Arial, Helvetica, sans-serif;
+    color: #faf5f5;
+}
+
+#mainP{
+    font-family: Chakra Petch, Arial, Helvetica, sans-serif;
+    color: #faf5f5;
+}
+
+h2{
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: #faf5f5;
+}
+
+
+#emailP{
+    color: #ffffff;
+    font-size: 2em;
+}
+
+ul{
+    color: #faf5f5;
+}
+
+@media screen and (max-width:600px){
+    aside, section{
+        width: 100%;
+    }    
+}
+
+section:hover{
+    font-size: 1.1em;
+    background-color: gray;
+}
+
+aside:hover{
+    font-size: 1.1em;
+    background-color: gray;
+}
